@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.download-frame {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.download-header {
+  background: #2b7a78;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-header h1 {
+  font-size: 1.5rem;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #fff;
+  background: #3aafa9;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background: #def2f1;
+  color: #17252a;
+}
+
+/* Main */
+.download-main {
+  flex: 1;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.download-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.download-card h2 {
+  margin-bottom: 10px;
+  color: #17252a;
+}
+
+.download-card ul {
+  margin-left: 20px;
+  margin-top: 10px;
+  list-style: square;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #3aafa9;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background: #2b7a78;
+}
+
+/* Footer */
+.download-footer {
+  text-align: center;
+  padding: 15px;
+  background: #17252a;
+  color: #fff;
+  font-size: 0.9rem;
+}
